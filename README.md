@@ -1,2 +1,2 @@
 # Analisador
-Analisador dos twitter durantes as Olímpiadas Rio 2016
+Analisador dos tweets durante as Olímpiadas Rio 2016
