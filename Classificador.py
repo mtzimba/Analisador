@@ -22,8 +22,8 @@ stop = stopwords.words('portuguese') + punctuation + ['rt', 'via', 'https', 'htt
 
 
 listaHashtag = []
-fo = open("/home/matheus/Documents/Estudo/MBCA/Monografia/Programa/olimpiadastesteprocessado.txt", "wb")
-with open('/home/matheus/Documents/Estudo/MBCA/Monografia/Programa/olimpiadasteste.json', 'r') as f:
+fo = open("olimpiadastesteprocessado.txt", "wb")
+with open('olimpiadasteste.json', 'r') as f:
     for line in f:
         tweet = json.loads(line)
         if tweet['lang'] == 'pt':
